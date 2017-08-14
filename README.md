@@ -8,15 +8,23 @@ having to write out the skeletons for their html/css/javascript, or setup a basi
 I intended this to be a starter for my freecodecamp front-end projects, and this should be
 sufficient to get you started if you wanted to work on your projects locally or put them on github.
 
-To use:
+### To use:
+
+#### Getting it from github
+- Fork the repository to your own github
+- Clone it down from your github to your local directory by:
+  - using 'git clone' from the command line oor
+  - downloading it as a zip
+  
+#### Making changes on your local
 - The file system is organized according to an MDN's instructional documentation, which is linked [HERE](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
   - MDN is a great resource in general, and is the go-to-place for html/css/javascript documentation.
 - You can write your html in index.html, just delete the placeholders and comments and add your own html.
 - Custom css can be added in /styles/main.css.
-  - The starter already comes pre-linked to Bootstrap, Normalize, and Font Awesome, so you don't need
+  - The starter already comes pre-linked to Bootstrap and Font Awesome, so you don't need
     to customize your css unless you want to. For quick links to their pages see below:
     - [Bootstrap](https://getbootstrap.com/)
-    - [Normalize](https://github.com/necolas/normalize.css/)
+    - [Font Awesome](http://fontawesome.io/)
 - You can write your javascript/jQuery in /scripts/app.js. The '$(document).ready()' block is already filled out.
   Just delete the comments and boilerplate code, and code away.
   - The starter comes with jQuery linked, and you can find documentation [HERE](https://jquery.com/)
@@ -24,14 +32,13 @@ To use:
   - When referencing them as a source in your html, the URL will be "./images/YOURFILENAME.EXENTSION".
 
 ## Requirements
-
-* This starter comes pre-linked to the required files through their respective CDNs *
-* No need for installing dependencies or anything like that *
+This starter comes pre-linked to the required files through their respective CDNs
+No need for installing dependencies or anything like that
 - Bootstrap v3.3.7
-- Normalize v7.0.0
 - Font Awesome v4.7.0
 - jQuery v3.2.1
 
 ## Contributing
-If there is anything that I am missing, or something you think I should add feel free submit a pull request with any changes.
+If there is anything that I am missing, or something you think I should add feel free submit a pull request with any changes,
+or message me on facebook if your in the freecodecamp earth or freecodecamp san jose group.
 No need to follow any strict contributing guidlines or style guides for this one. Thanks!
